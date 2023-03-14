@@ -1,6 +1,7 @@
 pub mod ownership;
 pub mod referances;
 pub mod slices;
+pub mod structs;
 
 fn rust_loop() {
     let mut i = 0;
@@ -49,7 +50,8 @@ fn main() {
     rust_loop();
     for_loop();
     ownership::ownership();
-    slices::slices()
+    slices::slices();
+    structs::structs_tuple();
 }
 
 fn shawoding() {
